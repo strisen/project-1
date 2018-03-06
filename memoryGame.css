@@ -1,6 +1,6 @@
 body {
 	height: 100vh;
-	width: auto;
+	width: 100vw;
 	background-color: #E0E0FB;
 }
 
@@ -242,9 +242,15 @@ p {
 
 @media(max-width: 800px) {
 
-	#mainBoard {
-		height: 850px;
-		width: 850px;
+	body {
+		height: 100vh;
+		width: 100vw;
+	}
+
+	img {
+		height: 190px;
+		width: 190px;
+		padding: 10px;
 	}
 
 	.card {
@@ -252,15 +258,14 @@ p {
 		width: 210px;
 	}
 
-  img {
-		height: 190px;
-		width: 190px;
-		padding: 10px;
-  }
-
 	.timerDisplay {
 		margin-top: 10px;
 		font-size: 40px;
+	}
+
+	#mainBoard {
+		height: 850px;
+		width: 850px;
 	}
 
 	#p1 {
