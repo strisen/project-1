@@ -243,7 +243,8 @@ p {
 @media(max-width: 800px) {
 
 	body {
-		max-width: 1000px;
+		width: auto;
+		height: auto;
 	}
 
 	img {
