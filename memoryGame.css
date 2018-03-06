@@ -242,25 +242,10 @@ p {
 
 @media(max-width: 800px) {
 
-	body {
-		width: auto;
-		height: auto;
-	}
-
 	img {
 		height: 190px;
 		width: 190px;
 		padding: 10px;
-	}
-
-	.gameTopSection {
-		width: 90vw;
-		height: auto;
-	}
-
-	.gameBoard {
-		width: 100vw;
-		height: auto;
 	}
 
 	.card {
@@ -271,11 +256,6 @@ p {
 	.timerDisplay {
 		margin-top: 10px;
 		font-size: 40px;
-	}
-
-	#mainBoard {
-		height: 850px;
-		width: 850px;
 	}
 
 	#p1 {
