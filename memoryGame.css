@@ -240,7 +240,7 @@ p {
 	display: none;
 }
 
-@media(max-width: 800px) {
+/*@media(max-width: 800px) {
 
 	img {
 		height: 190px;
@@ -268,4 +268,4 @@ p {
 		font-size: 50px;
 	}
 
-}
+}*/
